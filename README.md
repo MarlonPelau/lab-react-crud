@@ -28,7 +28,7 @@ You've been hired to build out _ScreenViews_, a website dedicated to rating show
 
 You will be running your own local server on your machine. Follow the instructions at the link below to get it up and running.
 
-- Television Shows API: Find the starter code for your api: `[starter-television-movies-api](https://github.com/10-3-pursuit/lab-react-crud.git)`
+- Television Shows API: Find the starter code for your api: [starter-television-movies-api](https://github.com/10-3-pursuit/lab-react-crud.git)
 
 ---
 
