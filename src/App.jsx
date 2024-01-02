@@ -16,10 +16,12 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/shows" element={<ShowsIndex />} />
-        <Route path="/shows/new" element={<ShowsNewForm />} />
-        <Route path="/shows/:id" element={<Show />} />
-        <Route path="/shows/:id/edit" element={<ShowsEditForm />} />
+        <Route path="/shows" >
+          <Route index element={<ShowsIndex />} />
+          <Route path='new' element={<ShowsNewForm />} />
+          <Route path=":id" element={<Show />} />
+          <Route path=":id/edit" element={<ShowsEditForm />} />
+        </Route>
       </Routes>
       <Footer />
     </div>
