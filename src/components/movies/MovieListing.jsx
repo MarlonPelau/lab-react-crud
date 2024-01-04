@@ -1,11 +1,11 @@
 import {Link} from 'react-router-dom'
-import "./ShowListing.css";
+import "./MovieListing.css";
 
-export default function ShowListing({ show: {id, title, listedIn, description, duration} }) {
+export default function MovieListing({ show: {id, title, listedIn, description, duration} }) {
   return (
-    <article className="show">
+    <article className="movie">
       <h3 className="title">
-        <Link to={`/shows/${id}`}>{title}</Link>
+        <Link to={`/movies/${id}`}>{title}</Link>
       </h3>
       <p className="description">{description}</p>
       <aside className="details">
